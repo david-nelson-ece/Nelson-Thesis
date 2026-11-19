@@ -1,0 +1,38 @@
+﻿{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "basic_swarm.py (FLIES)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/basic_swarm.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run the open Python file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "cf13: pre-flight checks only",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/square_cf13.py",
+            "args": ["--check-only"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "cf13: FLY square",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/square_cf13.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

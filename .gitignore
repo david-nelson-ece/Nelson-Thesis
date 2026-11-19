@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+# cflib parameter/log cache, regenerated on connect
+cache/
+# local VS Code interpreter path
+.vscode/settings.json
+# lab utilities are installed from their own repository (see requirements.txt)
+hyunlabutils/

@@ -1,0 +1,5 @@
+cflib
+numpy
+# On Windows the 1.0a4 wheels contain a Python 3.13 build; use Python 3.13.
+motioncapture==1.0a4
+hyunlabutils @ git+https://github.com/Hyun-Research-Lab/hyunlabutils.git
